@@ -20,6 +20,7 @@ const Navbar = () => {
           }}>
 
             <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+            <p className="text-white text-[18px] font-bold cursor-pointer">Sarat <span className="sm:block hidden"> | Bondada </span></p>
 
           </Link>
     </nav>
@@ -27,3 +28,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// npm install --legacy-peer-deps -D  postcss autoprefixer  
+// npx tailwindcss init -p
